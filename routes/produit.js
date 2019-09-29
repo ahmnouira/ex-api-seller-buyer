@@ -1,4 +1,4 @@
-var produit = require('../constrollers/produit');
+var produit = require('../controllers/produit');
 var router = require('express').Router();
 
 router.post('/',  produit.post);

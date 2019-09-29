@@ -1,4 +1,4 @@
-var acheteur = require('../constrollers/acheteur');
+var acheteur = require('../controllers/acheteur');
 var router = require('express').Router();
 
 router.post('/',  acheteur.post);

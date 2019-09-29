@@ -1,4 +1,4 @@
-var categorie = require('../constrollers/categorie');
+var categorie = require('../controllers/categorie');
 var router = require('express').Router();
 
 router.post('/',  categorie.post);

@@ -1,4 +1,4 @@
-var annonce = require('../constrollers/annonce');
+var annonce = require('../controllers/annonce');
 var router = require('express').Router();
 
 router.post('/',  annonce.post);

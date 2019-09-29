@@ -1,6 +1,18 @@
 {
-	"name": "test",
+	"name": "ex-api-seller-buyer",
 	"version": "1.0.0",
+	"main": "server.js",
+	"description": "exercice api seller buyer form ITGate September 2019",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ahmnouira/ex-api-seller-buyer.git"
+	},
+	"author": "Ahmed Nouira",
+	"license": "MIT",
+	"homepage": "https://github.com/ahmnouira/ex-api-seller-buyer#readme",
 	"dependencies": {
 		"bcrypt": "^3.0.6",
 		"body-parser": "^1.19.0",
